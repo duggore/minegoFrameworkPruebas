@@ -1,0 +1,139 @@
+/********************************* LiveValidation *************************************/
+
+.LV_valid {
+    color:#00CC00;
+}
+	
+.LV_invalid {
+	color:#CC0000;
+}
+	
+.LV_validation_message{
+    font-weight:bold;
+    margin:0 0 0 5px;
+}
+    
+.LV_valid_field,
+input.LV_valid_field:hover, 
+input.LV_valid_field:active,
+textarea.LV_valid_field:hover, 
+textarea.LV_valid_field:active,
+.fieldWithErrors input.LV_valid_field,
+.fieldWithErrors textarea.LV_valid_field {
+    border: 1px solid #00CC00;
+}
+    
+.LV_invalid_field, 
+input.LV_invalid_field:hover, 
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover, 
+textarea.LV_invalid_field:active,
+.fieldWithErrors input.LV_invalid_field,
+.fieldWithErrors textarea.LV_invalid_field {
+    border: 1px solid #CC0000;
+}
+
+/************************************ HELPERS ***************************************/		
+
+.floatRight {
+  float:right;
+}
+
+.floatLeft {
+  float:left;
+}
+
+.clearBoth {
+  clear:both;
+}
+
+.clearLeft {
+  clear:left;
+}
+
+.clearRight {
+  clear:right;
+}
+
+.inline {
+  display:inline;
+}
+
+.block {
+  display:block;
+}
+
+.hidden {
+  display:none;
+}
+
+.invisible {
+  visibility:hidden;
+}
+
+.visible {
+  visibility:visible;
+}
+
+/** margin helpers (useful for floated images) **/
+
+.marginTop10 {
+  margin-top:10px;
+}
+
+.marginRight10 {
+  margin-right:10px;
+}
+
+.marginBottom10 {
+  margin-bottom:10px;
+}
+
+.marginleft10 {
+  margin-left:10px;
+}
+.date {
+	
+	float:left;
+	text-align:center;
+	width:50px;
+	background:#B9D420;
+	padding:10px 0;
+	margin-right:10px;
+}
+
+.date strong {
+  display:block;
+	font-size:200%;
+}
+
+.chatterBox {
+  float:left;
+	margin-bottom:20px;
+	width:625px;
+}
+
+/* support boxes *************/
+
+#main .supportBox {
+	float:left;
+	margin:0 0 20px 60px;
+	width:160px;
+}
+
+#main .supportBox ul {
+	margin-top:5px;
+	padding:0;
+
+}
+
+#main .supportBox ul li {
+	list-style:none;
+	width:160px;
+}
+
+#main .supportBox .versions {
+	display: none;
+	
+}
+
